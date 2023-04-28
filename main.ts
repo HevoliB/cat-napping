@@ -3,7 +3,7 @@ input.onButtonPressed(Button.A, function () {
     if (logging) {
         basic.showIcon(IconNames.Heart)
         music.playSoundEffect(music.builtinSoundEffect(soundExpression.happy), SoundExpressionPlayMode.UntilDone)
-    } else if (false) {
+    } else {
         basic.clearScreen()
     }
 })
